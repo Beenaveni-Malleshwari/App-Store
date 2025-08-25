@@ -1,0 +1,25 @@
+.tab-item {
+  margin: 0 10px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #dfe2e5;
+  color: #1e293b;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.active-tab {
+  background-color: #2563eb;
+  color: #ffffff;
+}
